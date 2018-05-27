@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/*css 初始化 */
+html {
+  font-size: 24px;
+  font-family: "PingFang-SC-Regular", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img,
+input,
+button {
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline-style: none;
+}
+/*去掉input等聚焦时的蓝色边框*/
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table {
+  border-collapse: collapse;
+}
+.clearfix:before,
+.clearfix:after {
+  /*清楚浮动*/
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ccc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: none;
+  font-weight: normal;
+}
+s,
+i,
+em {
+  font-style: normal;
+  text-decoration: none;
+}
+.hide {
+  display: none!important;
+}
+.fixed {
+  position: fixed;
+  z-index: 999999;
+}
+.float-left {
+  float: left;
+}
+.color-white {
+  color: #ffffff!important;
+}
+.color-black {
+  color: #000000!important;
+}
+.color-ccc {
+  color: #cccccc!important;
+}
+.color-333 {
+  color: #333333!important;
+}
+/* 通用分屏 */
+.session {
+  overflow: hidden;
+}
+.session > .title {
+  margin: 100px auto 50px;
+  text-align: center;
+  height: 50px;
+  font-size: 40px;
+  color: #cccccc;
+}

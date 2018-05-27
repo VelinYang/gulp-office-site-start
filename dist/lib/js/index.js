@@ -1,0 +1,1 @@
+Header.fixedNav(".session.two"),$(".item").click(function(){$(".item").removeClass("action"),$(this).addClass("action");var e=$(this).attr("href"),t=$(e).offset().top;return $("html,body").animate({scrollTop:t-(fixedEl.height()+head.height())},500),!1}),hover(".tabs>.tab",".tab-centent"),hover(".process>.item",".process-centent");

@@ -1,0 +1,136 @@
+.session {
+  &.one {
+    min-width: 1200px;
+    width: 100%;
+    height: 600px;
+    background: url(/lib/img/cp_banner.png) center no-repeat;
+  }
+  &.two {
+    min-width: 1200px;
+    width: 100%;
+    background: #070d33;
+    height: 140px;
+    .fixedDom {
+      min-width: 1200px;
+      width: 100%;
+      background: #070d33;
+      .items {
+        width: 1200px;
+        height: 140px;
+        margin: 0 auto;
+        &>.item {
+          width: 240px;
+          height: 100%;
+          display: inline-block;
+          vertical-align: top;
+          text-align: center;
+          opacity: .7;
+          &>.icon {
+            margin: 30px auto 15px;
+            width: 42px;
+            height: 42px;
+            &.icon1 {
+              background: url(/lib/img/cp_icon1.png) center / 100% 100% no-repeat;
+            }
+            &.icon2 {
+              background: url(/lib/img/cp_icon2.png) center / 100% 100% no-repeat;
+            }
+            &.icon3 {
+              background: url(/lib/img/cp_icon3.png) center / 100% 100% no-repeat;
+            }
+            &.icon4 {
+              background: url(/lib/img/cp_icon4.png) center / 100% 100% no-repeat;
+            }
+            &.icon5 {
+              background: url(/lib/img/cp_icon5.png) center / 100% 100% no-repeat;
+            }
+          }
+          &>.name {
+            font-size: 20px;
+            color: #ffffff;
+          }
+          &.action {
+            background: #0071FF;
+            opacity: 1;
+          }
+          &:hover {
+            // background: #0071FF;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  &.products {
+    min-width: 1200px;
+    height: 600px;
+    &.p1 {
+      background: url(/lib/img/znjj_1.png) center no-repeat;
+    }
+    &.p2 {
+      background: url(/lib/img/zhwl_2.png) center no-repeat;
+    }
+    &.p3 {
+      background: url(/lib/img/zhwy_3.png) center no-repeat;
+    }
+    &.p4 {
+      background: url(/lib/img/zhsc_4.png) center no-repeat;
+    }
+    &.p5 {
+      background: url(/lib/img/xcx_5.png) center no-repeat;
+    }
+    .texts {
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      &>.text {
+        display: table;
+        width: 50%;
+        float: left;
+        height: 100%;
+        text-align: left;
+        color: #fff;
+        vertical-align: middle;
+        &>.title , &>.desc {
+          display: table-cell;
+          height: 100%;
+          vertical-align: middle;
+        }
+        &>.title {
+          .t1,.t3 {
+            padding-left: 150px;
+          }
+          .t3 {
+            line-height: 25px;
+            font-size: 16px;
+          }
+        }
+        &>.desc {
+          .t2,.t3 {
+            padding-left: 60px;
+          }
+          .t2 {
+            margin-bottom: 4px;
+          }
+          .t3 {
+            margin-bottom: 40px;
+          }
+          &>div:last-child {
+            margin-bottom: 0;
+          }
+        }
+        .t1 {
+          margin: 0 auto 38px;
+          font-size: 60px;
+        }
+        .t2 {
+          font-size: 24px;
+        }
+        .t3 {
+          line-height: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,174 @@
+.session {
+  &.one {
+    width: 100%;
+    min-width: 1200px;
+    height: 600px;
+    background: url(/lib/img/jjfa_banner.png) center no-repeat;
+  }
+  &.two {
+    width: 100%;
+    height: 220px;
+    min-width: 1200px;
+    text-align: center;
+    &>.item {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      height: 200px;
+      &>.icon {
+        width: 50px;
+        height: 50px;
+        margin: 30px auto 0;
+        &.icon1 {
+          background: url(/lib/img/jufa_icon1.png) center / 100% 100% no-repeat;
+        }
+        &.icon2 {
+          background: url(/lib/img/jufa_icon2.png) center / 100% 100% no-repeat;
+        }
+        &.icon3 {
+          background: url(/lib/img/jufa_icon3.png) center / 100% 100% no-repeat;
+        }
+        &.icon4 {
+          background: url(/lib/img/jufa_icon4.png) center / 100% 100% no-repeat;
+        }
+      }
+      &>.title {
+        font-size: 22px;
+        margin: 18px auto;
+      }
+      &>.dect {
+        color: #666666;
+        font-size: 12px;
+        height: 20px;
+      }
+    }
+  }
+  &.three {
+    min-width: 1200px;
+    width: 100%;
+    background: url(/lib/img/fu_bg.png) center / 100% 100% no-repeat;
+    &>.items {
+      height: 370px;
+      margin-bottom: 100px;
+      .texts {
+        min-width: 1200px;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        &>.bg {
+          width: 42%;
+        }
+        &>.text {
+          width: 58%;
+        }
+        &>.bg, &>.text {
+          display: table;
+          float: left;
+          height: 100%;
+          text-align: left;
+          color: #fff;
+          vertical-align: middle;
+          &>.title , &>.desc {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+          }
+          &>.desc {
+            .t2 {
+              margin-bottom: 13px;
+            }
+            .t3 {
+              margin-bottom: 40px;
+            }
+            &>div:last-child {
+              margin-bottom: 0;
+            }
+          }
+          .t1 {
+            margin: 0 auto 38px;
+            font-size: 60px;
+          }
+          .t2 {
+            color: #333333;
+            font-size: 20px;
+          }
+          .t3 {
+            color: #999999;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  &.four {
+    width: 100%;
+    min-width: 1200px;
+    height: 1000px;
+    background: url(/lib/img/hxyw_bg.png) center no-repeat;
+    &>.hexin-centent {
+      margin: 0 auto;
+      width: 1200px;
+      &>.services {
+        height: 120px;
+        background: rgba(19, 49, 101, 0.7);
+        display: flex;
+        &>.item {
+          cursor: pointer;
+          text-align: center;
+          color: #fff;
+          flex: 1;
+          height: 100%;
+          line-height: 105px;
+          &.service1 > .icon {
+            background: url(/lib/img/hxyw_icon1.png) center / 100% 100% no-repeat;
+          }
+          &.service2 > .icon {
+            background: url(/lib/img/hxyw_icon2.png) center / 100% 100% no-repeat;
+          }
+          &.service3 > .icon {
+            background: url(/lib/img/hxyw_icon3.png) center / 100% 100% no-repeat;
+          }
+          &>.name {
+            font-size: 24px;
+            height: 40px;
+            display: inline-block;
+            line-height: 40px;
+            vertical-align: middle;
+          }
+          &>.icon {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: middle;
+          }
+        }
+        &>.item.action {
+          background: #0071FF;
+          &:after {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #0071FE;
+            transform: rotate(45deg);
+            margin: 0 auto;
+            display: block;         
+          }
+        }
+      }
+      &>.service-centent {
+        margin: 60px 0 0;
+        text-align: center;
+        &>.desc {
+          width: 75%;
+          color: #fff;
+          margin: 0 auto;
+          font-size: 14px;
+          text-align: center;
+          line-height: 25px;
+          height: 100px;
+        }
+      }
+    }    
+  }
+}
